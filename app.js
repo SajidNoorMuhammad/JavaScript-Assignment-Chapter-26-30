@@ -37,9 +37,9 @@ if (userInput >= second){
 }
 
 // Question # 06
-// var number = Math.floor((Math.random() * 100) + 1);
+var number = Math.floor((Math.random() * 100) + 1);
 
-// document.write(`random number between 1 and 100: ${number}`)
+document.write(`random number between 1 and 100: ${number}`)
 
 // Question # 07
 //ask in class
