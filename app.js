@@ -15,10 +15,10 @@ var ceil= Math.ceil(userInput)
 document.write(`number: ${userInput} </br> round off value: ${roundoff} <br> floor value: ${floor} <br> ceil value: ${ceil}`)
 
 // Question # 03
-// var userInput= prompt("Enter Any Number")
-// var absolute= Math.abs(userInput)
+var userInput= prompt("Enter Any Number")
+var absolute= Math.abs(userInput)
 
-// document.write(`The absolute Value of ${userInput} is ${absolute}`)
+document.write(`The absolute Value of ${userInput} is ${absolute}`)
 
 // Question # 04
 // var number= Math.floor (Math.random() * 3)
