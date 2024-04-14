@@ -45,15 +45,15 @@ document.write(`random number between 1 and 100: ${number}`)
 //ask in class
 
 // Question # 08
-// var secretNum= Math.floor(Math.random()*10)
-// var userInput= prompt("Enter Any Number")
+var secretNum= Math.floor(Math.random()*10)
+var userInput= prompt("Enter Any Number")
 
-// document.write(`<h1>Find The Secret Number Game</h1>`)
-// if (userInput == secretNum){
-//     document.write(`Secret Number: ${secretNum} <br> Input Number: ${userInput} <br> <h2>"Wohoo! You Find a Secret Num"<h2>`)
-// }else {
-//     document.write(`Secret Number: ${secretNum} <br> Input Number: ${userInput} <br> <h2>"Soory, Better Luck Next Time!"<h2>`)
-// }
+document.write(`<h1>Find The Secret Number Game</h1>`)
+if (userInput == secretNum){
+    document.write(`Secret Number: ${secretNum} <br> Input Number: ${userInput} <br> <h2>"Wohoo! You Find a Secret Num"<h2>`)
+}else {
+    document.write(`Secret Number: ${secretNum} <br> Input Number: ${userInput} <br> <h2>"Soory, Better Luck Next Time!"<h2>`)
+}
 
 
 
