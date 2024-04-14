@@ -21,10 +21,10 @@ var absolute= Math.abs(userInput)
 document.write(`The absolute Value of ${userInput} is ${absolute}`)
 
 // Question # 04
-// var number= Math.floor (Math.random() * 3)
-// var second= Math.floor ((Math.random() * 4) + 1)
+var number= Math.floor (Math.random() * 3)
+var second= Math.floor ((Math.random() * 4) + 1)
 
-// document.write(`Random dice value: ${number} <br> Random dice value: ${second}`)
+document.write(`Random dice value: ${number} <br> Random dice value: ${second}`)
 
 // Question # 05
 // var userInput= Math.floor(Math.random()* 3)
