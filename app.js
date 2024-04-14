@@ -27,15 +27,14 @@ var second= Math.floor ((Math.random() * 4) + 1)
 document.write(`Random dice value: ${number} <br> Random dice value: ${second}`)
 
 // Question # 05
-// var userInput= Math.floor(Math.random()* 3)
-// var second= Math.floor(Math.random()* 2)
+var userInput= Math.floor(Math.random()* 3)
+var second= Math.floor(Math.random()* 2)
 
-
-// if (userInput >= second){
-//     document.write(`${userInput} <br> Random Coin Value: Heads <br> ${second} <br> Random Coin Value: Tails`)
-// }else {
-//     document.write("SOOOORRRRYYYY")
-// }
+if (userInput >= second){
+    document.write(`${userInput} <br> Random Coin Value: Heads <br> ${second} <br> Random Coin Value: Tails`)
+}else {
+    document.write("SOOOORRRRYYYY")
+}
 
 // Question # 06
 // var number = Math.floor((Math.random() * 100) + 1);
