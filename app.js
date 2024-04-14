@@ -4,7 +4,7 @@ var roundoff= Math.round(userInput)
 var floor= Math.floor(userInput)
 var ceil= Math.ceil(userInput)
 
-// document.write(`number: ${userInput} </br> round off value: ${roundoff} <br> floor value: ${floor} <br> ceil value: ${ceil}`)
+document.write(`number: ${userInput} </br> round off value: ${roundoff} <br> floor value: ${floor} <br> ceil value: ${ceil}`)
 
 // Question # 02
 // var userInput= prompt ("Enter a Negative Number")
